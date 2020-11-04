@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Hello from './views/demo/Hello';
+// import HelloClass from './views/demo/HelloClass'
+// import HelloHOC from './views/demo/HelloHOC'
+import HelloHooks from './views/demo/HelloHooks'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <Hello name="typescript"/>
+  // <HelloClass name="typescript"></HelloClass>,
+  // <HelloHOC name="typescript" loading={ false }></HelloHOC>,
+  <HelloHooks name="typescript"></HelloHooks>,
   document.getElementById('root')
 );
 
